@@ -1,0 +1,6 @@
+.photo-grid__container {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, 284px);
+    width: 1184px;
+}

@@ -1,0 +1,7 @@
+.lead__image {
+    width: 984px;
+    height: 615px;
+    object-fit: cover;
+    object-position: center;
+    pointer-events: none;
+}
