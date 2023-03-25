@@ -1,4 +1,4 @@
-.header__content {
+.header__container {
     margin: 0 auto;
     max-width: calc(100% - 48px*2);
     width: 100%;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .header__content {
+    .header__container {
     max-width: calc(100% - 48px);
     }
 }
 
 @media screen and (max-width: 767px) {
-    .header__content {
+    .header__container {
         max-width: calc(100% - 16px*2);
         padding-top: 16px;
         }
