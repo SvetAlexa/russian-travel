@@ -1,0 +1,22 @@
+.cover {
+    max-width: 1184px;
+    width: 100%;
+    position: relative;
+}
+
+
+.cover::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(42, 44, 47, .3);
+}
+
+.cover:hover::before {
+    content: "";
+    background-color: rgba(42, 44, 47, .8);
+}
