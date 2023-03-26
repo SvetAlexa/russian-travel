@@ -23,6 +23,7 @@
     right: 0;
     bottom: 0;
     background-color:  rgba(42, 44, 47, .3);
+    transition: .4s ease;
 }
 
 .cover__container:hover::before {
