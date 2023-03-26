@@ -3,6 +3,21 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.63;
+    line-height: 29px;
     margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__paragraph { 
+        padding-left: 16px;
+        max-width: 302px;
+    }
 }
