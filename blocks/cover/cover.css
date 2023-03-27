@@ -4,7 +4,6 @@
     position: relative;
 }
 
-
 .cover::before {
     content: "";
     position: absolute;
