@@ -1,5 +1,5 @@
 .cover__subtitle {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
@@ -9,10 +9,6 @@
     text-align: center;
     position: relative;
     z-index: 1;
-}
-
-.cover__subtitle:hover {
-    cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {

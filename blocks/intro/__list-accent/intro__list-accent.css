@@ -1,8 +1,7 @@
-.intro__list-item {
-    margin: 0;
+.intro__list-accent {
     font-family: 'Inter', 'Arial', sans-serif;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     line-height: 1.5;
 }
